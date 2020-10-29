@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subject__c</fullName>
+    <externalId>false</externalId>
+    <label>Subject</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Make a sales plan</fullName>
+                <default>false</default>
+                <label>Make a sales plan</label>
+            </value>
+            <value>
+                <fullName>Develop a business process</fullName>
+                <default>false</default>
+                <label>Develop a business process</label>
+            </value>
+            <value>
+                <fullName>Hold a meeting</fullName>
+                <default>false</default>
+                <label>Hold a meeting</label>
+            </value>
+            <value>
+                <fullName>Make a report</fullName>
+                <default>false</default>
+                <label>Make a report</label>
+            </value>
+            <value>
+                <fullName>Analyze the market</fullName>
+                <default>false</default>
+                <label>Analyze the market</label>
+            </value>
+            <value>
+                <fullName>Interact with the client</fullName>
+                <default>false</default>
+                <label>Interact with the client</label>
+            </value>
+            <value>
+                <fullName>Analyze the competitive environment</fullName>
+                <default>false</default>
+                <label>Analyze the competitive environment</label>
+            </value>
+            <value>
+                <fullName>Process applications</fullName>
+                <default>false</default>
+                <label>Process applications</label>
+            </value>
+            <value>
+                <fullName>Enter data into CRM</fullName>
+                <default>false</default>
+                <label>Enter data into CRM</label>
+            </value>
+            <value>
+                <fullName>Сonsider a claim</fullName>
+                <default>false</default>
+                <label>Сonsider a claim</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
