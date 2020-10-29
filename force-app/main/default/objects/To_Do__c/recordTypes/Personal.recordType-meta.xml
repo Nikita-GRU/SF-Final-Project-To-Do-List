@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Personal</fullName>
+    <active>true</active>
+    <label>Personal</label>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Ended- Successful</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ended- Unsuccessful</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Process</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Started</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Subject__c</picklist>
+        <values>
+            <fullName>Analyze the competitive environment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Develop a business process</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enter data into CRM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hold a meeting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Interact with the client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Process applications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Сonsider a claim</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
